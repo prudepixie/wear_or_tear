@@ -1,0 +1,29 @@
+{
+  "name": "wear_or_tear",
+  "version": "0.0.0",
+  "description": "\"fashion style voting app\"",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.4.1",
+    "nedb": "^0.10.5",
+    "express3-handlebars": "^0.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prudepixie/wear_or_tear.git"
+  },
+  "keywords": [
+    "fashion",
+    "voting"
+  ],
+  "author": "Wendy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prudepixie/wear_or_tear/issues"
+  },
+  "homepage": "https://github.com/prudepixie/wear_or_tear"
+}
