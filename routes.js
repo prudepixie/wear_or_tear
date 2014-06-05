@@ -66,14 +66,18 @@ module.exports = function(app){
 
   photos.find({ name: req.body.photo}, function(err, found){
 
-    if (found.length ==1){
+      if (found.length ==1){
 
-      photos.update(found[0], {$inc : what[req.path]});
+        photos.update(found[0], {$inc : what[req.path]});
 
+        users.update({ip: req.ip}, { $addToSet: {votes: found[0]._id}}, function(){
+          res.redirect('../');
+        });
 
-    }
-  })
+      }
+      else{
+        res.redirect('../');
+      }
+   });
   }
-
-
 }
