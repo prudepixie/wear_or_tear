@@ -42,8 +42,38 @@ module.exports = function(app){
     });
   });
 
+  app.post('*', function(req, res, next){
+    // Register the user in the database by ip address
+    users.insert({
+      ip: req.ip,
+      votes: []
+
+    }, function(){
+      next();
+      });
+
+    });
+
+  app.post('/tear', vote);
+  app.post('/cute', vote);
+
+  function vote(req, res){
+
+    var what = {
+      '/tear': { dislikes: 1 },
+      '/wear': {likes: 1}
+    };
+
+  photos.find({ name: req.body.photo}, function(err, found){
+
+    if (found.length ==1){
+
+      photos.update(found[0], {$inc : what[req.path]});
 
 
+    }
+  })
+  }
 
 
 }
