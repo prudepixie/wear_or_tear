@@ -12,7 +12,7 @@ module.exports = function(app){
       users.find( {ip: req.ip}, function(err, u){
         var voted_on = [];
         if(u.length == 1){
-          voted_on = u[].votes;
+          voted_on = u[0].votes;
         }
 
         var not_voted_on = all_photos.filter(function(photo){
