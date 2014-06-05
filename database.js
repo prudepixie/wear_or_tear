@@ -9,3 +9,16 @@ users.ensureIndex ({fieldName: 'ip', unique: true});
 
 
 var photos_on_disk = fs.readdirSync(_dirname + '/public/photos');
+
+photos_on_disk.forEach(function(photos){
+  photos.insert({
+    name: photo,
+    likes: 0,
+    dislikes: 0
+  });
+})
+
+module.exports = {
+  photos: photos,
+  users: users
+};
