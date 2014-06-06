@@ -1,1 +1,5 @@
+{"ip":"127.0.0.1","votes":[],"_id":"81omlJIzvUqU39lG"}
 {"$$indexCreated":{"fieldName":"ip","unique":true,"sparse":false}}
+{"ip":"127.0.0.1","votes":["bYQzMlb8jJtZZdU7"],"_id":"81omlJIzvUqU39lG"}
+{"ip":"127.0.0.1","votes":["bYQzMlb8jJtZZdU7","jQ1t8WSuCscuI7lD"],"_id":"81omlJIzvUqU39lG"}
+{"ip":"127.0.0.1","votes":["bYQzMlb8jJtZZdU7","jQ1t8WSuCscuI7lD","JPxc5iw7YtgNkToc"],"_id":"81omlJIzvUqU39lG"}
