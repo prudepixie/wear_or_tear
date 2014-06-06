@@ -1,5 +1,4 @@
 {"name":"suede.jpeg","likes":0,"dislikes":0,"_id":"4aKm3YqNpsvWa8EB"}
-{"name":".DS_Store","likes":0,"dislikes":0,"_id":"BYIrlnPpL3bNzY97"}
 {"name":"amazon8.jpg","likes":0,"dislikes":0,"_id":"DMXgmQpWKOMmti8s"}
 {"name":"dress2.jpg","likes":0,"dislikes":0,"_id":"JPxc5iw7YtgNkToc"}
 {"name":"result1.jpeg","likes":0,"dislikes":0,"_id":"MZ342kSScfCAPsWF"}
@@ -13,3 +12,6 @@
 {"name":"result13.jpeg","likes":0,"dislikes":0,"_id":"qyntx2Ra3DDpstNt"}
 {"name":"b6.jpeg","likes":0,"dislikes":0,"_id":"yb47js7HEbUzjqxi"}
 {"$$indexCreated":{"fieldName":"name","unique":true,"sparse":false}}
+{"name":"shirt.jpeg","likes":1,"dislikes":0,"_id":"bYQzMlb8jJtZZdU7"}
+{"name":"dress3.jpg","likes":0,"dislikes":1,"_id":"jQ1t8WSuCscuI7lD"}
+{"name":"dress2.jpg","likes":1,"dislikes":0,"_id":"JPxc5iw7YtgNkToc"}
