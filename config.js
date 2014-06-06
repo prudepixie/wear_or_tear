@@ -1,5 +1,6 @@
 var handlebars = require('express3-handlebars'),
-    express = require('express');
+    express = require('express'),
+    bodyParser = require ('body-parser');
 
 
 module.exports = function(app){
@@ -20,7 +21,7 @@ module.exports = function(app){
     // Make the files in the public folder available to the world
     app.use(express.static(__dirname + '/public'));
 
-    // Parse POST request data. It will be available in the req.body object
-    // app.use(express.urlencoded());
+    // Parse POST request data. V4
+    app.use(bodyParser());
 
 };
